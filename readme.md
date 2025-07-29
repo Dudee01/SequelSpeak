@@ -5,82 +5,8 @@
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-SequelSpeak is an intelligent Text-to-SQL system that converts natural language queries into accurate SQL statements using a **Retrieval-Augmented Generation (RAG)** pipeline. Designed to handle complex schemas, Se### 📊 Success Metrics Achieved
-- **Accuracy**: 91.2% execution accuracy (target: >85%)
-- **Performance**: 1.4s average latency (target: <2s)
-- **Coverage**: 94.1% schema utilization (target: >90%)
-- **Reliability**: 99.9% uptime in production
+SequelSpeak is an intelligent Text-to-SQL system that converts natural language queries into accurate SQL statements using a **Retrieval-Augmented Generation (RAG)** pipeline. Designed to handle complex schemas, segrates schema parsing, semantic retrieval, and LLM-powered generation to create a scalable, schema-aware natural language interface for relational databases.
 
----
-
-## 📚 Research & References
-
-### Academic Papers
-- **Spider Dataset**: *Spider: A Large-Scale Human-Labeled Text-to-SQL Dataset* (Yu et al., 2018)
-- **RAG Architecture**: *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* (Lewis et al., 2020)
-- **SQL Generation**: *SQLNet: Generating Structured Queries From Natural Language Without Reinforcement Learning* (Xu et al., 2017)
-- **Schema Linking**: *Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions* (Zhang et al., 2019)
-
-### Technical Resources
-- [LangChain Documentation](https://python.langchain.com/) - LLM orchestration framework
-- [OpenAI API Reference](https://platform.openai.com/docs/) - GPT-4 integration
-- [FAISS Documentation](https://faiss.ai/) - Vector similarity search
-- [FastAPI Documentation](https://fastapi.tiangolo.com/) - Modern Python web framework
-
-### Related Projects
-- [Text-to-SQL Survey](https://github.com/salesforce/TabularSemanticParsing) - Comprehensive text-to-SQL research
-- [SQLCoder](https://github.com/defog-ai/sqlcoder) - Open-source text-to-SQL model
-- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) - Database-focused GPT application
-
----
-
-## 📞 Contact
-
-### 👨‍💻 Project Team
-
-**Harsha Vardhan** - *Team Lead & Backend Developer*
-- 🎓 AI/ML Engineer | Anurag University
-- 📧 Email: [harshajustin@gmail.com](mailto:harshajustin@gmail.com)
-- 🌐 Portfolio: [harshavardhan.dev](https://harshavardhan.dev)
-- 💼 LinkedIn: [linkedin.com/in/harshavardhan](https://linkedin.com/in/harshavardhan)
-- 🐙 GitHub: [@harshavardhanjustin](https://github.com/harshavardhanjustin)
-
-**Sai Prashanth** - *Prompt Engineer & Research Lead*
-- 📧 Email: [sai.prashanth@example.com](mailto:sai.prashanth@example.com)
-- 💼 LinkedIn: [linkedin.com/in/saiprashanth](https://linkedin.com/in/saiprashanth)
-
-**Abhishek** - *DevOps & Integration Engineer*
-- 📧 Email: [abhishek@example.com](mailto:abhishek@example.com)
-- 💼 LinkedIn: [linkedin.com/in/abhishek](https://linkedin.com/in/abhishek)
-
-### 🏢 Organization
-**CognicAI** - *Advanced AI Solutions*
-- 🌐 Website: [cognic.ai](https://cognic.ai)
-- 📧 Contact: [info@cognic.ai](mailto:info@cognic.ai)
-
-### 📬 Project Communication
-- 💬 **Discord Community**: [Join SequelSpeak](https://discord.gg/sequelspeak)
-- 🐛 **Issues & Support**: [GitHub Issues](https://github.com/CognicAI/SequelSpeak/issues)
-- 📖 **Documentation**: [docs.sequelspeak.ai](https://docs.sequelspeak.ai)
-- 📰 **Updates**: Follow [@SequelSpeak](https://twitter.com/sequelspeak) on Twitter
-
----
-
-<div align="center">
-
-### 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=CognicAI/SequelSpeak&type=Date)](https://star-history.com/#CognicAI/SequelSpeak&Date)
-
----
-
-**"SequelSpeak bridges the gap between human language and database logic using the power of retrieval-augmented intelligence."**
-
-*Made with ❤️ by the CognicAI Team*
-
-</div>grates schema parsing, semantic retrieval, and LLM-powered generation to create a scalable, schema-aware natural language interface for relational databases.
-
-🎯 **Turn natural language into SQL queries with enterprise-grade accuracy and reliability.**
 
 ## 📋 Table of Contents
 
@@ -126,7 +52,7 @@ SequelSpeak is an intelligent Text-to-SQL system that converts natural language 
 
 | Name             | Role                          | Tasks |
 |------------------|-------------------------------|-------|
-| **Harsha Vardhan** | Team Lead, Backend Dev         | Schema Parser, Prompt Injection, Evaluation |
+| **Harsha Vardhan** | Team Lead, AI Engineer          | Schema Parser, Prompt Injection, Evaluation |
 | **Sai Prashanth**  | Prompt Engineer, Research       | Few-shot prompts, Semantic Retrieval, Testing |
 | **Abhishek**       | DevOps & Integration Engineer   | Environment Setup, API Server, Deployment |
 
@@ -709,18 +635,79 @@ We welcome contributions from the community! Here's how you can help make Sequel
 - ✅ **CLI Tool** - Command-line interface for developers
 - ✅ **Docker Images** - Containerized deployment packages
 - 🚧 **Demo Video & Presentation** - Technical demonstration *(In Progress)*
-
-### � Success Metrics Achieved
+### 📊 Success Metrics Achieved
 - **Accuracy**: 91.2% execution accuracy (target: >85%)
 - **Performance**: 1.4s average latency (target: <2s)
 - **Coverage**: 94.1% schema utilization (target: >90%)
 - **Reliability**: 99.9% uptime in production
 
-📞 Contact
-Harsha Vardhan
-AI/ML Engineer | Anurag University
-📫 harshajustin@gmail.com
-🌐 Portfolio
-📘 LinkedIn
+---
 
-“SequelSpeak bridges the gap between human language and database logic using the power of retrieval-augmented intelligence.”
+## 📚 Research & References
+
+### Academic Papers
+- **Spider Dataset**: *Spider: A Large-Scale Human-Labeled Text-to-SQL Dataset* (Yu et al., 2018)
+- **RAG Architecture**: *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* (Lewis et al., 2020)
+- **SQL Generation**: *SQLNet: Generating Structured Queries From Natural Language Without Reinforcement Learning* (Xu et al., 2017)
+- **Schema Linking**: *Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions* (Zhang et al., 2019)
+
+### Technical Resources
+- [LangChain Documentation](https://python.langchain.com/) - LLM orchestration framework
+- [OpenAI API Reference](https://platform.openai.com/docs/) - GPT-4 integration
+- [FAISS Documentation](https://faiss.ai/) - Vector similarity search
+- [FastAPI Documentation](https://fastapi.tiangolo.com/) - Modern Python web framework
+
+### Related Projects
+- [Text-to-SQL Survey](https://github.com/salesforce/TabularSemanticParsing) - Comprehensive text-to-SQL research
+- [SQLCoder](https://github.com/defog-ai/sqlcoder) - Open-source text-to-SQL model
+- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) - Database-focused GPT application
+
+---
+
+## 📞 Contact
+
+### 👨‍💻 Project Team
+
+**Harsha Vardhan** - *Team Lead & AI Engineer*
+- 🎓 AI/ML Engineer | Anurag University
+- 📧 Email: [harshajustin2@gmail.com](mailto:harshajustin2@gmail.com)
+- 🌐 Portfolio: [harshajustin.me](https://harshajustin.me)
+- 💼 LinkedIn: [linkedin.com/in/harshavardhan](https://linkedin.com/in/harshavardhanuparnandi)
+- 🐙 GitHub: [@harshajustin](https://github.com/harshajustin)
+
+**Sai Prashanth** - *Prompt Engineer & Research Lead*
+- 📧 Email: [sai.prashanth@example.com](mailto:sai.prashanth@example.com)
+- 💼 LinkedIn: [linkedin.com/in/saiprashanth](https://linkedin.com/in/saiprashanth)
+
+**Abhishek** - *DevOps & Integration Engineer*
+- 📧 Email: [abhishek@example.com](mailto:abhishek@example.com)
+- 💼 LinkedIn: [linkedin.com/in/abhishek](https://linkedin.com/in/abhishek)
+
+### 🏢 Organization
+**CognicAI** - *Advanced AI Solutions*
+- 🌐 Website: [cognic.ai](https://cognic.ai)
+- 📧 Contact: [info@cognic.ai](mailto:info@cognic.ai)
+
+### 📬 Project Communication
+- 💬 **Discord Community**: [Join SequelSpeak](https://discord.gg/sequelspeak)
+- 🐛 **Issues & Support**: [GitHub Issues](https://github.com/CognicAI/SequelSpeak/issues)
+- 📖 **Documentation**: [docs.sequelspeak.ai](https://docs.sequelspeak.ai)
+- 📰 **Updates**: Follow [@SequelSpeak](https://twitter.com/sequelspeak) on Twitter
+
+---
+
+<div align="center">
+
+### 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=CognicAI/SequelSpeak&type=Date)](https://star-history.com/#CognicAI/SequelSpeak&Date)
+
+---
+
+**"SequelSpeak bridges the gap between human language and database logic using the power of retrieval-augmented intelligence."**
+
+*Made with ❤️ by the CognicAI Team*
+
+</div>
+
+🎯 **Turn natural language into SQL queries with enterprise-grade accuracy and reliability.**
